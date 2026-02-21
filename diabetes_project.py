@@ -6,7 +6,6 @@
 
 import pandas as pd
 import numpy as np
-import seaborn as sns
 import matplotlib.pyplot as plt
 
 from sklearn.model_selection import train_test_split
@@ -101,4 +100,5 @@ cm = confusion_matrix(y_test, y_pred)
 sns.heatmap(cm, annot=True, fmt="d")
 plt.title("Confusion Matrix")
 plt.show()
+
 
